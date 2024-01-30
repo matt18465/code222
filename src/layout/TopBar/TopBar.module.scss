@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+.toolbar {
+  .icons {
+    font-size: 16px;
+  }
+
+  background-color: #43474f;
+  transition: .3s all;
+  padding-left: 4rem;
+
+}
+
+.searchInput {
+  max-width: 400px;
+  width: 100%;
+
+  >div {
+    border: none;
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  input {
+    margin-left: 4px;
+    font-size: 14px;
+  }
+}
+
+.logo {
+
+  letter-spacing: -1px;
+  font-size: 24px;
+  font-weight: 400;
+
+  span {
+    padding-left: 2rem;
+    display: inline-block;
+    margin-left: 2px;
+    font-weight: 900;
+    color: $secondaryColor;
+    letter-spacing: -2px;
+  }
+}

@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+
+.root {
+  height: 100%;
+
+  &.dark {
+
+    .changePositive {
+      color: #6CD798;
+    }
+
+    .changeNegative {
+      color: #f196a0;
+    }
+  }
+
+  .change {
+    font-weight: bold;
+  }
+
+  .changePositive {
+    color: #3DD598;
+  }
+
+  .changeNegative {
+    color: #F0142F;
+  }
+
+  .icon {
+    height: 16px;
+  }
+}

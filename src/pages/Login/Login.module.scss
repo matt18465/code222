@@ -1,0 +1,25 @@
+.root {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  .image {
+    flex: 1;
+    background: url('../../assets/login-image.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 300px;
+    min-height: 150px;
+  }
+  .formContainer {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+  }
+}

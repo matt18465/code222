@@ -1,0 +1,8 @@
+/* Google Maps Overrides */
+
+.gm-style-iw-tc {
+  display: none !important;
+}
+.gm-ui-hover-effect {
+  display: none !important;
+}

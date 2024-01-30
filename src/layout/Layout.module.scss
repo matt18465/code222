@@ -1,0 +1,15 @@
+@import "../styles/variables";
+
+.root {
+  height: 100vh;
+
+  .pageWrapper {
+    padding-top: 68px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    gap: 42px;
+    background-color: rgb(255, 255, 255, 0);
+  }
+}

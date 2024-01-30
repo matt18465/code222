@@ -1,0 +1,15 @@
+export const RoutePathname = Object.freeze({
+  Login: "/login",
+  Home: "/home",
+  EnergyStorage: "/energy-storage",
+  PV: "/pv",
+  Wind: "/wind",
+  Analytics: "/analytics",
+  Locations: "/locations",
+  Documentation: "/documentation",
+  Customers: "/customers",
+  Projects: "/projects",
+  Calendar: "/calendar",
+  HelpCenter: "/help-center",
+  Settings: "/settings",
+});

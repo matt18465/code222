@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.actionInitializer {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+.menuItem {
+  font-size: 14px;
+}
