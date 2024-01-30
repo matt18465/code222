@@ -36,24 +36,6 @@ const rows = [
     type: "PV",
     maxPower: "4",
   },
-  {
-    name: "Location 3",
-    country: "Gdański",
-    type: "Wind",
-    maxPower: "3",
-  },
-  {
-    name: "Location 4",
-    country: "Olsztyński",
-    type: "Hybrid",
-    maxPower: "6",
-  },
-  {
-    name: "Location 5",
-    country: "Lidzbarski",
-    type: "Hybrid",
-    maxPower: "9",
-  },
 ];
 
 export const Locations = () => {
