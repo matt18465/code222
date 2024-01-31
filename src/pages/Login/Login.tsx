@@ -81,7 +81,7 @@ export const LoginPage = () => {
           onSubmit={handleSubmit(onSubmit)}
         >
           <Typography variant="h4" align="center">
-            EMACS
+            EMS
           </Typography>
           <Typography fontSize={18} align="center">
             {registration

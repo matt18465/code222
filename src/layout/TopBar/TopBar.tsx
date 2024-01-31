@@ -185,7 +185,7 @@ export const TopBar = () => {
                 fontSize: "1.7rem",
               }}
             >
-              TESTEMACS
+              EMS
             </Typography>
           </Link>
           {md || isSearchOpen === true ? (
